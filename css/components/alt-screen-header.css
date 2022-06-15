@@ -1,0 +1,49 @@
+.alt-header {
+	padding: var(--horizontal-space);
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.alt-header__title {
+	font-size: 30px;
+	font-weight: 650;
+}
+
+.alt-header__column {
+	width: 33%;
+}
+
+.alt-header__column i {
+	color: #e8e8e8;
+}
+
+.alt-header__column:first-child {
+	margin-right: auto;
+}
+
+.alt-header__column:nth-child(2) {
+	text-align: center;
+}
+
+.alt-header__column:last-child {
+	margin-left: auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.alt-header__column span {
+	margin-left: 20px;
+}
+
+.alt-header__title--tommy {
+	font-size: 25px;
+	font-weight: 650;
+	text-align: center;
+}
+
+.alt-header--tommy {
+	height: 85px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/styles.css" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chat - kokoa clone</title>
+	</head>
+
+	<body id="chat-screen">
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<i class="fa-solid fa-wifi"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<span>100%</span>
+				<i class="fa-solid fa-battery-full fa-lg"></i>
+				<i class="fa-solid fa-bolt"></i>
+			</div>
+		</div>
+
+		<header class="alt-header">
+			<div class="alt-header__column">
+				<a href="chats.html">
+					<i class="fa-solid fa-angle-left fa-2x"></i>
+				</a>
+			</div>
+
+			<div class="alt-header__column">
+				<h1 class="alt-header__title">Itzhak</h1>
+			</div>
+			<div class="alt-header__column">
+				<span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+				<span><i class="fa-solid fa-bars fa-lg"></i></span>
+			</div>
+		</header>
+
+		<main class="main-screen main-chat">
+			<div class="chat_timestamp">Sunday, October 31, 2021</div>
+
+			<div class="messege-row">
+				<img src="icon/husband.jpg" />
+				<div class="messege-row__content">
+					<span class="messege__author">Itzhak</span>
+					<div class="messege__info">
+						<span class="speech-bubble">Lift up your hands</span>
+						<span class="messege__time">21:57</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="messege-row messege-row--own">
+				<div class="messege-row__content">
+					<div class="messege__info">
+						<span class="messege__time--own">21:57</span>
+						<span class="speech-bubble--own">And you're shining </span>
+					</div>
+				</div>
+			</div>
+
+			<div class="messege-row messege-row--own">
+				<div class="messege-row__content">
+					<div class="messege__info">
+						<span class="messege__time--own">21:58</span>
+						<span class="speech-bubble--own">Like the brightest star</span>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<form class="reply">
+			<div class="reply__column">
+				<i class="fa-regular fa-square-plus"></i>
+			</div>
+			<div class="reply__column">
+				<input type="text" placeholder="write a messege" />
+				<i class="fa-regular fa-face-smile"></i>
+				<button><i class="fa-solid fa-arrow-up"></i></button>
+			</div>
+		</form>
+
+		<div id="no-mobile">Your Screen is Too Big!</div>
+
+		<script
+			src="https://kit.fontawesome.com/3f85a3487c.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

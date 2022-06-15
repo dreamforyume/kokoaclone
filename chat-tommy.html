@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/styles.css" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chat-tommy - kokoa clone</title>
+	</head>
+
+	<body id="chat-screen">
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<i class="fa-solid fa-wifi"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<span>100%</span>
+				<i class="fa-solid fa-battery-full fa-lg"></i>
+				<i class="fa-solid fa-bolt"></i>
+			</div>
+		</div>
+
+		<header class="alt-header alt-header--tommy">
+			<div class="alt-header__column y">
+				<a href="chats.html">
+					<i class="fa-solid fa-angle-left fa-2x"></i>
+				</a>
+			</div>
+
+			<div class="alt-header__column">
+				<h1 class="alt-header__title--tommy">Tommy Gnosis</h1>
+			</div>
+			<div class="alt-header__column">
+				<span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+				<span><i class="fa-solid fa-bars fa-lg"></i></span>
+			</div>
+		</header>
+
+		<main class="main-screen main-chat">
+			<div class="chat_timestamp">Sunday, October 31, 2021</div>
+
+			<div class="messege-row">
+				<img src="icon/tommy.png" />
+				<div class="messege-row__content">
+					<span class="messege__author">Tommy Gnosis</span>
+					<div class="messege__info">
+						<span class="speech-bubble">미안해요, 헤드윅.</span>
+						<span class="messege__time">23:09</span>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<form class="reply">
+			<div class="reply__column">
+				<i class="fa-regular fa-square-plus"></i>
+			</div>
+			<div class="reply__column">
+				<input type="text" placeholder="write a messege" />
+				<i class="fa-regular fa-face-smile"></i>
+				<button><i class="fa-solid fa-arrow-up"></i></button>
+			</div>
+		</form>
+
+		<div id="no-mobile">Your Screen is Too Big!</div>
+
+		<script
+			src="https://kit.fontawesome.com/3f85a3487c.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

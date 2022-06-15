@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/styles.css" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Find - kokoa clone</title>
+	</head>
+
+	<body>
+		<div class="status-bar">
+			<div class="status-bar__column">
+				<span>No Service</span>
+				<i class="fa-solid fa-wifi"></i>
+			</div>
+			<div class="status-bar__column">
+				<span>18:43</span>
+			</div>
+			<div class="status-bar__column">
+				<span>100%</span>
+				<i class="fa-solid fa-battery-full fa-lg"></i>
+				<i class="fa-solid fa-bolt"></i>
+			</div>
+		</div>
+
+		<header class="screen-header">
+			<h1 class="screen-header__title">Find</h1>
+			<div class="screen-header__icons">
+				<span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+				<a href="setting.html"
+					><span><i class="fa-solid fa-gear fa-lg"></i></span
+				></a>
+			</div>
+		</header>
+
+		<main class="main-screen">
+			<div class="icon-row">
+				<div class="icon-row__icon">
+					<i class="fa-solid fa-qrcode"></i><span>QR Code</span>
+				</div>
+				<div class="icon-row__icon">
+					<i class="fa-regular fa-address-book"></i><span>Contacts</span>
+				</div>
+				<div class="icon-row__icon">
+					<i class="fa-solid fa-fingerprint"></i><span>ID</span>
+				</div>
+				<div class="icon-row__icon">
+					<i class="fa-regular fa-envelope"></i><span>Invite</span>
+				</div>
+			</div>
+			<div class="recommend-friends">
+				<h6 class="recommend-friends__title">Recommended Friends</h6>
+				<span>You have no recommended friends</span>
+			</div>
+			<div class="open-chat">
+				<div class="open-chat__header">
+					<h4>Open Chat</h4>
+					<span
+						>Go to Open Chat Home <i class="fa-solid fa-angle-right fa-xs"></i
+					></span>
+				</div>
+				<div class="open-post">
+					<div class="open-post__column">
+						<h5 class="open-post__title">젠틀맨스가이드</h5>
+						<h6 class="open-post__hashtags">#하이허스트성 #유료관광</h6>
+						<div class="open-post__members">
+							<img src="icon/first.jpg" />
+							<span class="open-post__member-count">1113 members</span>
+							<div class="divider"></div>
+							<span class="open-post__member-status">Active</span>
+						</div>
+					</div>
+					<div class="open-post__column">
+						<div class="open-post__photo">
+							<img src="icon/gentleman.jpg" />
+							<div class="open-post__heart-count">
+								<i class="fa-solid fa-heart fa-sm"></i><span>220</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="open-post">
+					<div class="open-post__column">
+						<h5 class="open-post__title">리지</h5>
+						<h6 class="open-post__hashtags">#도끼면충분 #썸바디누가사고쳐</h6>
+						<div class="open-post__members">
+							<img src="icon/borden.jpg" />
+							<span class="open-post__member-count">612 members</span>
+							<div class="divider"></div>
+							<span class="open-post__member-status">Active</span>
+						</div>
+					</div>
+
+					<div class="open-post__column">
+						<div class="open-post__photo">
+							<img src="icon/lizzie.jpg" />
+							<div class="open-post__heart-count">
+								<i class="fa-solid fa-heart fa-sm"></i><span>423</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__btn">
+					<a class="nav__link" href="friends.html"
+						><img src="icon/origin.png" height="75px" width="75px"
+					/></a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="chats.html">
+						<span class="nav__notification badge">1</span>
+						<img src="icon/fish.png" height="75px" width="75px" />
+					</a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="find.html"
+						><img src="icon/glove.png" height="75px" width="75px"
+					/></a>
+				</li>
+				<li class="nav__btn">
+					<a class="nav__link" href="more.html"
+						><img src="icon/hedwig.png" height="75px" width="75px"
+					/></a>
+				</li>
+			</ul>
+		</nav>
+
+		<div id="no-mobile">Your Screen is Too Big!</div>
+
+		<script
+			src="https://kit.fontawesome.com/3f85a3487c.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
