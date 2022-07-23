@@ -13,7 +13,7 @@
 	box-sizing: border-box;
 }
 #chat-screen .alt-header {
-	top: 2px;
+	top: 1px;
 	z-index: 1;
 }
 

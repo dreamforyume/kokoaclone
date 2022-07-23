@@ -81,6 +81,7 @@
 .open-post__photo {
 	position: relative;
 	margin-bottom: 20px;
+	top: 10px;
 }
 .open-post__photo img {
 	width: 60px;
