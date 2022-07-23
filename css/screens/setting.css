@@ -24,6 +24,3 @@
 .setting__icon-column:nth-child(3) {
 	opacity: 0.5;
 }
-.setting__icon:last-child {
-	border-top: var(--main-border);
-}

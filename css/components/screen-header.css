@@ -3,7 +3,7 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: var(--horizontal-space);
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	padding-top: 40px;
 }
 .screen-header__title {
