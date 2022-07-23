@@ -8,8 +8,8 @@
 }
 
 .alt-header__title {
-	font-size: 20px;
-	font-weight: 600;
+	font-size: 18px;
+	font-weight: 650;
 }
 
 .alt-header__column {
@@ -37,16 +37,6 @@
 
 .alt-header__column span {
 	margin-left: 20px;
-}
-
-.alt-header__title--tommy {
-	font-size: 15px;
-	font-weight: 650;
-	text-align: center;
-}
-
-.alt-header--tommy {
-	height: 70px;
 }
 
 .alt-header--setting {
