@@ -17,6 +17,7 @@
 
 .alt-header__column i {
 	color: #e8e8e8;
+	font-size: 20px;
 }
 
 .alt-header__column:first-child {
@@ -38,11 +39,11 @@
 }
 
 .alt-header__title--tommy {
-	font-size: 25px;
+	font-size: 15px;
 	font-weight: 650;
 	text-align: center;
 }
 
 .alt-header--tommy {
-	height: 85px;
+	height: 70px;
 }

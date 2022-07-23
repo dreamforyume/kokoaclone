@@ -21,7 +21,7 @@
 
 .friends-screen__channel {
 	font-size: 12px;
-	margin-top: 15px;
+	margin-top: 5px;
 	border-top: var(--main-border);
 	padding-top: 9px;
 }
