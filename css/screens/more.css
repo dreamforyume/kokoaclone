@@ -1,9 +1,9 @@
 .more-screen .icon-row {
-	margin-top: 35px;
+	margin-top: 30px;
 }
 
 .more-suggestion {
-	margin-top: 10px;
+	margin-top: 15px;
 	border-top: var(--main-border);
 	padding-top: 20px;
 }
@@ -19,12 +19,13 @@
 }
 .more-suggestion__title {
 	margin-bottom: 20px;
-	font-weight: 600;
+	font-size: 15px;
+	font-weight: 700;
 }
 
 .more-suggestion__icon-img img {
-	width: 70px;
-	height: 70px;
+	width: 50px;
+	height: 50px;
 	border-radius: 20%;
 	border: 0.5px solid rgba(112, 112, 195, 0.3);
 }

@@ -7,7 +7,7 @@
 .setting__icon {
 	padding: 20px 0;
 	border-bottom: rgba(0, 0, 0, 0.1);
-	font-size: 18px;
+	font-size: 14px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -15,14 +15,14 @@
 
 .setting__icon i {
 	margin-right: 20px;
-	font-size: 22px;
+	font-size: 20px;
 }
 .setting__icon:nth-child(3) {
 	border-bottom: var(--main-border);
 }
 
 .setting__icon-column:nth-child(3) {
-	opacitiy: 0.5;
+	opacity: 0.5;
 }
 .setting__icon:last-child {
 	border-top: var(--main-border);

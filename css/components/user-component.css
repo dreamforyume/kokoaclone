@@ -15,21 +15,21 @@
 }
 
 .user-component__avatar {
-	width: 70px;
-	height: 70px;
+	width: 55px;
+	height: 55px;
 	object-fit: cover;
 	border-radius: 30%;
 	margin-right: 26px;
 }
 
 .user-component__avatar--xl {
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
 }
 
 .user-component__avatar--sm {
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	margin-bottom: 10px;
 }
 
@@ -66,14 +66,14 @@
 	align-items: center;
 	justify-content: center;
 	position: absolute;
-	margin-left: 120px;
-	margin-top: 23px;
+	margin-left: 75px;
+	margin-top: 25px;
 	color: rgb(184, 40, 40);
 	border-radius: 50%;
 	border: 1.5px solid rgb(184, 40, 40);
 	font-weight: 600;
-	width: 18px;
-	height: 18px;
+	width: 10px;
+	height: 10px;
 }
 
 .user-component__column:last-child {
@@ -86,7 +86,8 @@
 .user-component__time {
 	display: block;
 	margin-bottom: 10px;
-	margin-top: -10px;
+	margin-top: -25px;
+	font-size: 5px;
 }
 
 .user-component img {
