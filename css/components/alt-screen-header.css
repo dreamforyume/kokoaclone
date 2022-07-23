@@ -1,10 +1,9 @@
 .alt-header {
 	padding: var(--horizontal-space);
-	margin-bottom: 10px;
+	margin: 10px 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 15px;
 }
 
 .alt-header__title {
